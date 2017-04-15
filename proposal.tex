@@ -19,34 +19,38 @@
 \section{Activity Overview}
 
 I thought about doing an activity of encryption. Indeed, security is not only about malware. One of the big question our century is for example to regulate the outlawed download. The regulation goes through analyse of musics, pictures and movies that are encrypted in order to become invisible for the data analyser. \\
-The activity would consist on first create some modification on some pictures or movies with the watermaking technique and to attack them after.  
+The activity would consist on first create some modifications on musics, pictures or movies with the watermaking technique and to attack them after.  
 
 \section{Exercises}
 
-Describe a series of exercises that students will carry out. 
-
 \begin{exercise}
 
-  In this exercise, you do ...
+	Generate RSA keys, in order to crypt your music, picture or video. Crypt it.
 
 \end{exercise}
 
 \begin{exercise}
 
-  In this exercise, you do ...
-
+	Create an algorithm of verification of the signature. \\
+	The algorithm should detect if the file has been attacked or not. And if yes, the type of attack it suffered.
+	
 \end{exercise}
 
 \begin{exercise}
 
-  In this exercise, you do ...
+  Exchange files with other students. Each student can modificate crypted files and attack them. \\
+  After the attack, every student should be able to know what type of attack suffered each files.
 
 \end{exercise}
 
 \section{Expected Solutions}
-
-Put expected solutions here.
-(예상되는 답안에 대해서 서술.)
+	\begin{itemize}
+	\item A good RSA key which respect the patent made by RSA creators (this activity could also be possible with GPG).  
+	\item An RSA crypted file
+	\item An algorithm of verification that could track down different types of attacks (modification of the message keeping the validity of the signature, attack of the private key (by n factorisation for example), chosen cyphertext attack, etc... ).	
+	\item Detection and recensement of the attack history suffered by the files.
+	
+	\end{itemize}
 
 \bibliography{references}
 \bibliographystyle{plainnat}
